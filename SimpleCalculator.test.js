@@ -27,3 +27,8 @@ it('should have a default value of 0 if no arguments are provided in constructor
   console.log(`Expected value: 0, Returned value: ${calculatorChain.value}`)
 });
 
+it('should add 5, multiply 7, subtract 14, divide 3 to equal 7 ', () => {
+  calculatorChain.add(5).multiply(7).subtract(14).divide(3);
+  console.log(`Expected value: 7, Returned value: ${calculatorChain.value}`)
+});
+
