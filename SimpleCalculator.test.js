@@ -18,3 +18,8 @@ it('should multiply 3 to value to equal 36', () => {
   console.log(`Expected value: 36, Retured value: ${calculator.value}`);
 });
 
+it('should divide 12 from value to equal 3', () => {
+  calculator.divide(12);
+  console.log(`Expected value: 3, Retured value: ${calculator.value}`);
+});
+

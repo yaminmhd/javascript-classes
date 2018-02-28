@@ -18,6 +18,11 @@ class SimpleCalculator{
     return this
   }
 
+  divide(n){
+    this.value /= n;
+    return this
+  }
+
 
 }
 
