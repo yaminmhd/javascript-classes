@@ -13,6 +13,12 @@ class SimpleCalculator{
     return this
   }
 
+  multiply(n){
+    this.value *= n;
+    return this
+  }
+
+
 }
 
 

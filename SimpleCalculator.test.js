@@ -13,3 +13,8 @@ it('should subtract 8 from value to equal 12', () => {
   console.log(`Expected value: 12, Retured value: ${calculator.value}`);
 });
 
+it('should multiply 3 to value to equal 36', () => {
+  calculator.multiply(3);
+  console.log(`Expected value: 36, Retured value: ${calculator.value}`);
+});
+
