@@ -23,3 +23,7 @@ it('should divide 12 from value to equal 3', () => {
   console.log(`Expected value: 3, Retured value: ${calculator.value}`);
 });
 
+it('should have a default value of 0 if no arguments are provided in constructor', () => {
+  console.log(`Expected value: 0, Returned value: ${calculatorChain.value}`)
+});
+
