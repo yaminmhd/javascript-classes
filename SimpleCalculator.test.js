@@ -8,5 +8,8 @@ it('should add 5 to value to equal 20', () => {
   console.log(`Expected value: 20, Returned value: ${calculator.value}`);
 });
 
-
+it('should subtract 8 from value to equal 12', () => {
+  calculator.subtract(8);
+  console.log(`Expected value: 12, Retured value: ${calculator.value}`);
+});
 
